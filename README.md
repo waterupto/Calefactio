@@ -16,6 +16,7 @@ The GISS Surface Temperature Analysis ver. 4 (GISTEMP v4) is an estimate of glob
 - [ ] EDA Frontend
 
 ## Features⚙
+We are thinking of providing the following features through our project:
 
 ## Predicted Results🔮
 
