@@ -1,5 +1,5 @@
 # Calefactio🔥
-We plan to create an Exploratory Data Analytics Web Application that will help us explore and perform operations on the various elements effecting global warming.
+We plan to create an Exploratory Data Analytics Web Application that will help us explore and perform operations on the various elements affecting global warming.
 
 ## Objective🤔
 Having a comprehensive view of various factors effecting the climate with the ability of performing operations will be really helpful. With our clean UI and nifty features like uploading your own database, the application is sure to be helpful.
