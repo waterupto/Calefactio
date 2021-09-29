@@ -26,8 +26,10 @@ We are thinking of providing the following features through our project:
 
 We are hoping to provide outputs in the line of our reference and all the while trying to incorporate better features.
 ## Predicted Results🔮
+<img src="ClimateChange.gif" height="500px">
 
 ## License⚖
+
 This project is under the MIT License. See [LICENSE](LICENSE) for Details.
 
 ## Contributors🤝 
