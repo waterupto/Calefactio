@@ -19,9 +19,12 @@ The GISS Surface Temperature Analysis ver. 4 (GISTEMP v4) is an estimate of glob
 We are thinking of providing the following features through our project:
 - Univariate Analysis: Histogram and Bar Chart help to visualize the distribution and variance of each variable
 
-- Correlation Analysis: Heatmap facilitates the identification of highly correlated explanatory variables and reduces collinearity
+- Correlation Analysis: Heatmap facilitates the identification of highly correlated explanatory variables and reduces collinearity.
 
-- Bivariate Analysis: Box plot and Grouped bar chart help to spot the dependency and relationship between explanatory variables and response variable
+- Bivariate Analysis: Box plot and Grouped bar chart help to spot the dependency and relationship between explanatory variables and response variable.
+
+
+We are hoping to provide outputs in the line of our reference and all the while trying to incorporate better features.
 ## Predicted Results🔮
 
 ## License⚖
