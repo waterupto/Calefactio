@@ -22,7 +22,7 @@ The GISS Surface Temperature Analysis ver. 4 (GISTEMP v4) is an estimate of glob
 ## License⚖
 This project is under the MIT License. See [LICENSE](LICENSE) for Details.
 
-## Contributors
+## Contributors🤝 
 
 <table>
 <tr align="center">
