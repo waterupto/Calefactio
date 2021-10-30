@@ -25,10 +25,33 @@ def profiling():
     )
     st.subheader("Let us start!")
 
-    df1 = pd.read_csv("data/GLB.Ts+dSST.csv")
-    pr1 = df1.profile_report()
+    st.subheader("First let us choose a sub data to analyse:")
 
-    st_profile_report(pr1)
+    option = st.selectbox(
+        " ",
+        (
+            "Global-mean Monthly",
+            "Northern-Hemisphere-mean Monthly",
+            "Southern-Hemisphere-mean Monthly",
+            "Zonal-Annual Mean",
+        ),
+    )
+
+    if st.button("Analyze"):
+
+        # loading the selected dataset
+        if option == "Global-mean Monthly":
+            df = pd.read_csv("data/GLB.Ts+dSST.csv")
+        elif option == "Northern-Hemisphere-mean Monthly":
+            df = pd.read_csv("data/NH.Ts+dSST.csv")
+        elif option == "Southern-Hemisphere-mean Monthly":
+            df = pd.read_csv("data/SH.Ts+dSST.csv")
+        elif option == "Zonal-Annual Mean":
+            df = pd.read_csv("data/ZonAnn.Ts+dSST.csv")
+
+    pr = df.profile_report()
+
+    st_profile_report(pr)
 
 
 if __name__ == "__main__":
