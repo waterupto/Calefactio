@@ -1,4 +1,10 @@
-# Calefactio🔥
+<p align="center"><img src="assets/logo.png" height="200px"><br>
+
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/MIT)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/yourGitHubName/yourRepo/yourApp/)
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+</p>
 We plan to create an Exploratory Data Analytics Web Application that will help us explore and perform operations on the various elements affecting global warming.
 
 ## Objective🤔
