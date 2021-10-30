@@ -36,7 +36,6 @@ We are thinking of providing the following features through our project:
 We are hoping to provide outputs in the line of our reference and all the while trying to incorporate better features.
 
 ## Using the deployed version of the web application
-Please download the <a href = "https://drive.google.com/drive/folders/10RaV7DTsFVgdYeJZIyveyeJKhfvFiKT2?usp=sharing">Model Checkpoints</a> and move the file to the <a href = "https://github.com/aryankargwal/capbot2.0/tree/main/camera">camera</a> folder.
 
 - Cloning the Repository: 
 
