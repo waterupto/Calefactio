@@ -13,6 +13,7 @@ Having a comprehensive view of various factors effecting the climate with the ab
 ## Dataset Used📚
 For the intial working and reference of data field we are using the [GISS Surface Temperature Analysis (GISTEMP v4)](https://data.giss.nasa.gov/gistemp/) dataset by NASA.<br>
 
+<img src="assets/annual.gif" height=450px><br>
 
 The GISS Surface Temperature Analysis (GISTEMP v4) is an estimate of global surface temperature change. Graphs and tables are updated around the middle of every month using current data files from NOAA GHCN v4 (meteorological stations) and ERSST v5 (ocean areas), combined as described in our publications Hansen et al. (2010) and Lenssen et al. (2019). These updated files incorporate reports for the previous month and also late reports and corrections for earlier months.
 
@@ -33,6 +34,25 @@ We are thinking of providing the following features through our project:
 
 
 We are hoping to provide outputs in the line of our reference and all the while trying to incorporate better features.
+
+## Using the deployed version of the web application
+Please download the <a href = "https://drive.google.com/drive/folders/10RaV7DTsFVgdYeJZIyveyeJKhfvFiKT2?usp=sharing">Model Checkpoints</a> and move the file to the <a href = "https://github.com/aryankargwal/capbot2.0/tree/main/camera">camera</a> folder.
+
+- Cloning the Repository: 
+
+        git clone https://github.com/waterupto/Calefactio
+- Setting up the Python Environment with dependencies 
+
+        pip install -r requirements.txt
+
+- Running the web application:
+
+        streamlit run app.py
+
+- Stopping the web application from the terminal
+
+        Ctrl+C
+
 ## Predicted Results🔮
 <img src="assets/demo.gif" height="500px">
 
