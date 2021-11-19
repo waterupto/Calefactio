@@ -22,7 +22,7 @@ The GISS Surface Temperature Analysis (GISTEMP v4) is an estimate of global surf
 - [x] Data Pre-Processing
 - [x] UI/UX Design
 - [x] EDA Backend
-- [ ] EDA Frontend
+- [x] EDA Frontend
 
 ## Features⚙
 We are thinking of providing the following features through our project:
