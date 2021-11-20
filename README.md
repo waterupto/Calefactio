@@ -35,6 +35,36 @@ We are thinking of providing the following features through our project:
 
 We are hoping to provide outputs in the line of our reference and all the while trying to incorporate better features.
 
+## Some important Libraries Used
+Our project has been assisted by the following open-sourced libraries
+
+```
+numpy==1.18.2
+streamlit==0.69.2
+pandas==1.0.3
+streamlit_pandas_profiling==0.1.2
+pandas_profiling==3.1.0
+```
+
+Off of which some of the integral commands used were
+
+Pre-Processing Dataset for notebooks<br>
+` for idx in range(raw.shape[0]):
+    temp_list.extend(raw.iloc[idx,1:])`
+
+Plotting figures in Notebooks<br>
+``` fig = plt.figure(figsize=(15,15))```
+
+Sidebar UI for the Web Application<br>
+` st.sidebar.markdown`
+
+Filling up missing values in the dataset<br>
+`data.fillna(method='ffill', inplace=True)`
+
+Date vs Temp plotting of the data<br>
+`fig = px.line(global_t, x="Date", y="Temp", title='Global-mean monthly Combined Land-Surface Air and Sea-Surface Water Temperature Anomalies')`
+
+
 ## Using the deployed version of the web application
 
 - Cloning the Repository: 
