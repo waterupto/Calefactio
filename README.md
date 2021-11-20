@@ -11,7 +11,7 @@ We plan to create an Exploratory Data Analytics Web Application that will help u
 Having a comprehensive view of various factors effecting the climate with the ability of performing operations will be really helpful. With our clean UI and nifty features like uploading your own database, the application is sure to be helpful.
 
 ## Dataset Used📚
-For the intial working and reference of data field, we are using the [GISS Surface Temperature Analysis (GISTEMP v4)](https://data.giss.nasa.gov/gistemp/) dataset by NASA.<br>
+For the intial working and reference of data field we are using the [GISS Surface Temperature Analysis (GISTEMP v4)](https://data.giss.nasa.gov/gistemp/) dataset by NASA.<br>
 
 <img src="assets/annual.gif" height=450px><br>
 
@@ -22,11 +22,10 @@ The GISS Surface Temperature Analysis (GISTEMP v4) is an estimate of global surf
 - [x] Data Pre-Processing
 - [x] UI/UX Design
 - [x] EDA Backend
-- [x] EDA Frontend
+- [X] EDA Frontend
 
 ## Features⚙
 We are thinking of providing the following features through our project:
-
 - Univariate Analysis: Histogram and Bar Chart help to visualize the distribution and variance of each variable
 
 - Correlation Analysis: Heatmap facilitates the identification of highly correlated explanatory variables and reduces collinearity.
@@ -53,8 +52,22 @@ We are hoping to provide outputs in the line of our reference and all the while 
 
         Ctrl+C
 
-## Predicted Results🔮
-<img src="assets/demo.gif" height="500px">
+## Steps to Run
+
+1. Run the Streamlit App
+<img src="assets/1.png">
+
+2. Select the Sub-Data to Explore
+<img src="assets/2.png">
+
+3. Start Analyzing the Data
+<img src="assets/3.png">
+
+4. Get a category wise study of the dataset
+<img src="assets/4.png">
+
+5. Get a category correlation graph to study relations
+<img src="assets/5.png">
 
 ## License⚖
 
