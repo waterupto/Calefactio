@@ -11,7 +11,7 @@ We plan to create an Exploratory Data Analytics Web Application that will help u
 Having a comprehensive view of various factors effecting the climate with the ability of performing operations will be really helpful. With our clean UI and nifty features like uploading your own database, the application is sure to be helpful.
 
 ## Dataset Used📚
-For the intial working and reference of data field, we are using the [GISS Surface Temperature Analysis (GISTEMP v4)](https://data.giss.nasa.gov/gistemp/) dataset by NASA.<br>
+For the intial working and reference of data field we are using the [GISS Surface Temperature Analysis (GISTEMP v4)](https://data.giss.nasa.gov/gistemp/) dataset by NASA.<br>
 
 <img src="assets/annual.gif" height=450px><br>
 
@@ -22,11 +22,10 @@ The GISS Surface Temperature Analysis (GISTEMP v4) is an estimate of global surf
 - [x] Data Pre-Processing
 - [x] UI/UX Design
 - [x] EDA Backend
-- [x] EDA Frontend
+- [X] EDA Frontend
 
 ## Features⚙
 We are thinking of providing the following features through our project:
-
 - Univariate Analysis: Histogram and Bar Chart help to visualize the distribution and variance of each variable
 
 - Correlation Analysis: Heatmap facilitates the identification of highly correlated explanatory variables and reduces collinearity.
@@ -35,6 +34,36 @@ We are thinking of providing the following features through our project:
 
 
 We are hoping to provide outputs in the line of our reference and all the while trying to incorporate better features.
+
+## Some important Libraries Used
+Our project has been assisted by the following open-sourced libraries
+
+```
+numpy==1.18.2
+streamlit==0.69.2
+pandas==1.0.3
+streamlit_pandas_profiling==0.1.2
+pandas_profiling==3.1.0
+```
+
+Off of which some of the integral commands used were
+
+Pre-Processing Dataset for notebooks<br>
+` for idx in range(raw.shape[0]):
+    temp_list.extend(raw.iloc[idx,1:])`
+
+Plotting figures in Notebooks<br>
+``` fig = plt.figure(figsize=(15,15))```
+
+Sidebar UI for the Web Application<br>
+` st.sidebar.markdown`
+
+Filling up missing values in the dataset<br>
+`data.fillna(method='ffill', inplace=True)`
+
+Date vs Temp plotting of the data<br>
+`fig = px.line(global_t, x="Date", y="Temp", title='Global-mean monthly Combined Land-Surface Air and Sea-Surface Water Temperature Anomalies')`
+
 
 ## Using the deployed version of the web application
 
@@ -53,8 +82,22 @@ We are hoping to provide outputs in the line of our reference and all the while 
 
         Ctrl+C
 
-## Predicted Results🔮
-<img src="assets/demo.gif" height="500px">
+## Steps to Run
+
+1. Run the Streamlit App
+<img src="assets/1.png">
+
+2. Select the Sub-Data to Explore
+<img src="assets/2.png">
+
+3. Start Analyzing the Data
+<img src="assets/3.png">
+
+4. Get a category wise study of the dataset
+<img src="assets/4.png">
+
+5. Get a category correlation graph to study relations
+<img src="assets/5.png">
 
 ## License⚖
 
