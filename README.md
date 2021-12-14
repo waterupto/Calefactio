@@ -5,7 +5,7 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/yourGitHubName/yourRepo/yourApp/)
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 </p>
-We plan to create an Exploratory Data Analytics Web Application that will help us explore and perform operations on the various elements affecting global warming.
+We have created an Exploratory Data Analytics Web Application that will help us explore and perform operations on the various elements affecting global warming.
 
 ## Objective🤔
 Having a comprehensive view of various factors effecting the climate with the ability of performing operations will be really helpful. With our clean UI and nifty features like uploading your own database, the application is sure to be helpful.
