@@ -25,7 +25,7 @@ The GISS Surface Temperature Analysis (GISTEMP v4) is an estimate of global surf
 - [X] EDA Frontend
 
 ## Features⚙
-We are thinking of providing the following features through our project:
+We are providing the following features through our project:
 - Univariate Analysis: Histogram and Bar Chart help to visualize the distribution and variance of each variable
 
 - Correlation Analysis: Heatmap facilitates the identification of highly correlated explanatory variables and reduces collinearity.
